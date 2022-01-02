@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <!-- Author information ------------- 
+        Name       : Navigation Menu 
+        version    : 12.31.1
+        created by : enggar abin
+    ------------------------------------> 
+
+    <!-- title web -->
+    <title>Scrolling Navigation Menu</title>
+
+    <!-- Meta tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" >
+</head>
+
+<body>
+    <!-- pembungkus -->
+    <div class="navigation-wrap">
+        <!-- tombol pencarian -->
+        <div class="rounded-circle scroll-search-btn"><i class="fa fa-fw fa-search"></i></div>
+
+        <!-- form navigasi -->
+        <form action="" class="rounded-pill d-none search-navigation">
+            <!-- search input -->
+            <input type="text" placeholder="Ketikan sesuatu ..." name="search" id="search-input" class="search-input">
+
+            <!-- btn search -->
+            <button type="submit" class="rounded-circle btn-search" id="btn-search"><i class="fa fa-fw fa-search"></i></button>
+        </form>
+
+        <!-- tombol memperkecil -->
+        <div class="rounded-circle btn-minimize"><i class="fa fa-fw fa-times"></i></div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
